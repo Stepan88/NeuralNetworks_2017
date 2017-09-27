@@ -8,8 +8,8 @@ X=sort(X);
 x=xn:dx:xk;
 
 function yres=yCalc(x,a,b)
-  chisl = log10(x.^2 - 1);
-  znam = log(a*x.^2 - b)/log(5);
+  chisl = log10(x^2 - 1);
+  znam = log5(a*x^2 - b;
   yres = chisl./znam;
 end
 
